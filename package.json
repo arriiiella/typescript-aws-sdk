@@ -1,0 +1,29 @@
+{
+  "name": "typescript-aws-cdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "helloWorld": "ts-node ./basics/helloWorld.ts",
+    "numbers": "ts-node ./basics/numbers.ts",
+    "types": "ts-node ./basics/types.ts",
+    "functions": "ts-node ./basics/functions/functions.ts",
+    "callbacks": "ts-node ./basics/functions/callbacks.ts",
+    "promises": "ts-node ./basics/functions/promises.ts",
+    "async": "ts-node ./basics/functions/async.ts",
+    "translate": "ts-node ./clientTranslate.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.2",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-translate": "^3.344.0"
+  }
+}

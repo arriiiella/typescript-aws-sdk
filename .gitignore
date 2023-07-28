@@ -1,0 +1,14 @@
+.npmrc
+node_modules/
+*.log
+npm-debug.log*
+coverage
+dist
+.DS_Store
+*.tfplan
+tsbuild/
+build/
+archives/
+*.zip
+.cache
+.terragrunt-cache
