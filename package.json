@@ -11,7 +11,7 @@
     "callbacks": "ts-node ./basics/functions/callbacks.ts",
     "promises": "ts-node ./basics/functions/promises.ts",
     "async": "ts-node ./basics/functions/async.ts",
-    "translate": "ts-node ./clientTranslate.ts",
+    "translate": "ts-node ./client_translate/clientTranslate.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
