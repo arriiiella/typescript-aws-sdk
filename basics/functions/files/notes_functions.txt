@@ -1,0 +1,1 @@
+Functions allow us to make resuable pieces of code.
